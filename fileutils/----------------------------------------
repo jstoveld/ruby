@@ -1,0 +1,115 @@
+----------------------------------------
+
+JSs-MacBook-Pro:stdlib JS$ ls
+config.yml		erb-example.rb
+erb-bank_account.rb	frog.rb
+JSs-MacBook-Pro:stdlib JS$ cd ../
+JSs-MacBook-Pro:ruby JS$ ls
+Readme.rtf			loops
+arrays				modules
+bank_account.rb			procs
+blocks				ruby_variables_examples.png
+classes.png			simple_methods.rb
+control_flow.rb			stdlib
+core				variable_intro.rb
+hello.rb
+JSs-MacBook-Pro:ruby JS$ mkdir fileutils
+JSs-MacBook-Pro:ruby JS$ cd fileutils/
+JSs-MacBook-Pro:fileutils JS$ irb
+2.2.0 :001 > 
+2.2.0 :001 > require 'fileutils'
+ => true 
+2.2.0 :002 > here = File.dirname
+ArgumentError: wrong number of arguments (0 for 1)
+	from (irb):2:in `dirname'
+	from (irb):2
+	from /Users/JS/.rvm/rubies/ruby-2.2.0/bin/irb:11:in `<main>'
+2.2.0 :003 > here = File.dirname(__FILE__)
+ => "." 
+2.2.0 :004 > puts File.expand_path(here)
+/Users/JS/Documents/Projects/ruby/fileutils
+ => nil 
+2.2.0 :005 > 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.2.0 :005 > puts Dir.entries(here)
+.
+..
+ => nil 
+2.2.0 :006 > FileUtils.mkdir_p(here + '/stuff')
+ => ["./stuff"] 
+2.2.0 :007 > puts Dir.entries(here)
+.
+..
+stuff
+ => nil 
+2.2.0 :008 > FileUtils touch 'file1'
+NoMethodError: undefined method `touch' for main:Object
+	from (irb):8
+	from /Users/JS/.rvm/rubies/ruby-2.2.0/bin/irb:11:in `<main>'
+2.2.0 :009 > FileUtils touch 'file1'
+NoMethodError: undefined method `touch' for main:Object
+	from (irb):9
+	from /Users/JS/.rvm/rubies/ruby-2.2.0/bin/irb:11:in `<main>'
+2.2.0 :010 > FileUtils.touch 'file1'
+ => ["file1"] 
+2.2.0 :011 > FileUtils.cp 'file1', 'file2'
+ => nil 
+2.2.0 :012 > FileUtils.compare('file1', 'file2'
+2.2.0 :013?>   ^C
+2.2.0 :013 > FileUtils.compare('file1', 'file2')
+NoMethodError: undefined method `compare' for FileUtils:Module
+	from (irb):13
+	from /Users/JS/.rvm/rubies/ruby-2.2.0/bin/irb:11:in `<main>'
+2.2.0 :014 > FileUtils.cmp('file1', 'file2')
+ => true 
+2.2.0 :015 > 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

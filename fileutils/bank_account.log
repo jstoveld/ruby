@@ -1,0 +1,21 @@
+# Logfile created on 2015-01-15 20:06:35 -0500 by logger.rb/47272
+D, [2015-01-15T20:06:35.181923 #2942] DEBUG -- : Depositing 100
+D, [2015-01-15T20:06:35.181958 #2942] DEBUG -- : Depositing 100
+D, [2015-01-15T20:06:35.181972 #2942] DEBUG -- : Depositing 100
+D, [2015-01-15T20:06:35.181983 #2942] DEBUG -- : Depositing 100
+D, [2015-01-15T20:06:35.181993 #2942] DEBUG -- : Withdrawing 46
+D, [2015-01-15T20:06:39.722208 #3001] DEBUG -- : Depositing 100
+D, [2015-01-15T20:06:39.722269 #3001] DEBUG -- : Depositing 100
+D, [2015-01-15T20:06:39.722285 #3001] DEBUG -- : Depositing 100
+D, [2015-01-15T20:06:39.722297 #3001] DEBUG -- : Depositing 100
+D, [2015-01-15T20:06:39.722333 #3001] DEBUG -- : Withdrawing 46
+I, [2015-01-15T20:18:03.133312 #3242]  INFO -- BankAccount John Stoveld: Depositing 100
+I, [2015-01-15T20:18:03.133422 #3242]  INFO -- BankAccount John Stoveld: Depositing 100
+I, [2015-01-15T20:18:03.133446 #3242]  INFO -- BankAccount John Stoveld: Depositing 100
+I, [2015-01-15T20:18:03.133465 #3242]  INFO -- BankAccount John Stoveld: Depositing 100
+I, [2015-01-15T20:18:03.133484 #3242]  INFO -- BankAccount John Stoveld: Withdrawing 46
+I, [2015-01-15T20:18:12.013874 #3301]  INFO -- BankAccount John Stoveld: Depositing 100
+I, [2015-01-15T20:18:12.013960 #3301]  INFO -- BankAccount John Stoveld: Depositing 100
+I, [2015-01-15T20:18:12.013986 #3301]  INFO -- BankAccount John Stoveld: Depositing 100
+I, [2015-01-15T20:18:12.014006 #3301]  INFO -- BankAccount John Stoveld: Depositing 100
+I, [2015-01-15T20:18:12.014077 #3301]  INFO -- BankAccount John Stoveld: Withdrawing 46
